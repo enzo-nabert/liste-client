@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-
 
 const Client = ({ proprietes, onDelete }) => {
 
