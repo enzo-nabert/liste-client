@@ -8,7 +8,7 @@ const ClientForm = ({onClientCreate}) => {
     const submitHandler  = event => {
         event.preventDefault();
         let id = new Date().getTime();
-        onClientCreate({id,nouveauNom});
+        onClientCreate({id,nom: nouveauNom});
         setNouveauNom("");
       }
 
