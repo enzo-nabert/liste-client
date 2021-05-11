@@ -24,7 +24,7 @@ li{
   display: flex;
   justify-content: space-between;
   align-content: center;
-  border : 2px solid black;
+  border : 3px solid black;
 }
 
 li:not(:first-of-type){
