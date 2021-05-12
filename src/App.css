@@ -17,7 +17,7 @@ input[type="button"]{
 }
 
 input[type="button"]:hover{
-  color : red;
+  color : green;
 }
 
 li{
